@@ -20,22 +20,29 @@ Between intermediate and pro
 
 ### Required skills: 
 
-debugging/basic file handling/basic cipher/logic
+- debugging
+- basic file handling
+- basic cipher
+- logic
 
 
 ### Solution:
 
 Read the file crypto1.txt for the solution to the challenge.
 
+
 ### Languages used:
 
 - C++ *GC++*
 - Batch script
 
+
 ### Techniques used:
 
 - Simple password string obfuscation
 - Basic Stenography
+- Various ciphers
+
 
 ### Website:
 
