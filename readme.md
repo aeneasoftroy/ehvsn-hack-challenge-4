@@ -35,7 +35,7 @@ Read the file crypto1.txt for the solution details to the challenge.
 
 ### Languages used:
 
-- C++ *GC++*
+- C++ (*GC++*)
 - Batch script
 
 
