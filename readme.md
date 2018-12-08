@@ -28,7 +28,9 @@ Between intermediate and pro
 
 ### Solution:
 
-Read the file crypto1.txt for the solution to the challenge.
+![alt text](https://github.com/aeneasoftroy/ehvsn-hack-challenge-4/blob/master/solution_challenge4.png)
+
+Read the file crypto1.txt for the solution details to the challenge.
 
 
 ### Languages used:
