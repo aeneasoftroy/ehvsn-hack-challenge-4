@@ -1,9 +1,8 @@
-Challenge#4
-
 ![alt text](https://github.com/aeneasoftroy/ehvsn-hack-challenge-4/blob/master/challenge4.png)
 
+This is the full source of the 4th EHVSN hacking challenge.
 
-The puzzle:
+### The puzzle:
 
 - When you start the challenge, it will generate only chunks of the password, nothing else.
 - Use a debugger on this butterfly.
@@ -14,8 +13,16 @@ The puzzle:
 - The first one to post the correct code on our EHVSN Facebook page has officially won 
 
 
-This is the full source of the 4th EHVSN hacking challenge.
+### Level: 
+
+Between intermediate and pro
+
+
+### Required skills: 
+
+debugging/basic file handling/basic cipher/logic
+
+
+### Solution:
 
 Read the file crypto1.txt for the solution to the challenge.
-
-
