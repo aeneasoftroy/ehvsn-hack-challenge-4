@@ -1,0 +1,28 @@
+When you start the challenge, it will generate only chunks of the password, nothing else.
+Use a debugger on this butterfly.
+1+3+2+4==1+2+3+4
+The butterfly is the key to the other butterfly.
+The butterfly's key encrypted will decrypt the other butterfly.
+
+Solution:
+---------
+1. The hacker must use a debugger to see what the exe does (OllyDBG 2 for example)
+2. The arguments being parsed construct the eventual password, but the order of password chunks is deliberatily wrong
+3. The hacker must take the hint from the note: "1+3+2+4==1+2+3+4" to get the correct order of the password chunks
+4. Using the obtained password the hacker can now unpack the exe file
+5. After unpacking, there are 2 new files, crypto1.bat and crypto1.ico. The ICO file has multiple different butterflies on different resolutions inside and a zip file! All in just 9kb.
+6. Start the batch file, the hint "The butterfly is the key to the other butterfly." now applies. All characters and numbers from it's ASCII form are the input.
+7. Now the hint "The butterfly's key encrypted will decrypt the other butterfly." applies to the situation, encrypt the butterfly's ASCII characters and numbers and use that to unpack the ICO file as a ZIP
+8. Challenge completed!
+
+main exe zip:
+
+unobfuscated unpack password: _OnExit.File.Data.bss.RdataCygminG-CRTbegin.c!
+
+ico:
+
+decrypted: 000770qp0oo0O00OOO
+
+encrypted: 593593593500500593668667593666666593524593593524524524
+
+challenge key: 3HV5NC#4
