@@ -1,6 +1,5 @@
 REM Some crypto example
 REM This script converts ASCII characters into the ASCII value, then converts it using ROT5.
-REM Done for EHVSN by Stephan van de Kerkhof
 :BOF
 REM SOME BASICS TO START OFF THE SCRIPT AND DISPLAY SOME INFO ABOUT IT:
 @echo off&&color 0a&&title EHVSN Challenge #4&&CLS&&echo.
